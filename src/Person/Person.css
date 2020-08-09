@@ -1,0 +1,30 @@
+.Person {
+  /* content, padding, border, margin*/
+  width: 60%;
+  margin: 16px;
+  border: 4px 3px rgba(223, 27, 27, 0.8); /*border: 4px(type) solid(size) rgba(223, 27, 27, 0.8);**/
+  box-shadow: 0 2px 3px rgb(88, 63, 63);
+  padding: 16px; /*clockwise from top*/
+  text-align: center;
+  overflow: auto; /*auto/scroll*/
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Input {
+  text-align: center;
+  height: inherit;
+}
+
+.Site {
+  background-color: rgb(167, 81, 32);
+  color: rgb(138, 13, 13);
+  font-family: sans-serif;
+  text-align: center;
+  padding: 13px;
+  border: 3px 8px rgb(27, 1, 1);
+  box-shadow: 4px 15px rgb(189, 25, 25);
+  margin: 5px;
+}

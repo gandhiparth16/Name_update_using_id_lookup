@@ -1,2 +1,2 @@
-# Name_update_using_id_lookup
+# react-practice-1
 Created with CodeSandbox
